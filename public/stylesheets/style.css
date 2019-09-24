@@ -1,9 +1,38 @@
 body {
-  background-color:aqua;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+      font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+     
+      font-size:20px;
+
+}
+html{
+  background: url('/images/Elogo.jpg') no-repeat center fixed; 
+  background-size: contain;
 }
 
+
 #main-body{
-  margin-top:50px;
-  margin-bottom:50px;
+ margin-top:50px;
+
+  margin-bottom:80px;
+}
+h1{
+  text-align:center;
+}
+.c1{
+   
+  background: url('/images/Elogo.jpg') no-repeat center fixed; 
+  background-size: contain;
+}
+.footer{
+  bottom:0;
+  left:0;
+  width:100%;
+  position:fixed;
+  text-align:center;
+  color:white;
+  background-color: black;
+  margin-top:10px;
+  opacity:0.8;
+  line-height:15px;
+  font-size:20px;
 }
